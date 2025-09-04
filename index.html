@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garima Rana | Portfolio</title>
+    <meta name="description" content="Explore Garima Rana's portfolio – M.Sc. Biotechnology student, experienced in computational biology, bioinformatics, molecular diagnostics, and structural biology. Skilled in Python, R, molecular techniques, and bioinformatics tools.">
+    <meta name="keywords" content="Garima Rana, Biotechnology Portfolio, Bioinformatics, Computational Biology, Molecular Diagnostics, Research, Academic Projects">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Garima Rana | Portfolio">
+    <meta property="og:description" content="M.Sc. Biotechnology Student | Computational Biology & Bioinformatics Enthusiast">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://garima-rana-portfolio.com">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563eb',
+                        secondary: '#10b981',
+                        dark: '#1f2937'
+                    },
+                    fontFamily: {
+                        poppins: ['Poppins', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .nav-link {
+            position: relative;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background-color: #2563eb;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        .section-title {
+            position: relative;
+            display: inline-block;
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            width: 60px;
+            height: 3px;
+            background: #2563eb;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Garima Rana",
+      "url": "https://garima-rana-portfolio.com",
+      "image": "/garima-rana-profile-image.png",
+      "jobTitle": "M.Sc. Biotechnology Student",
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "J.C. Bose University of Science and Technology, YMCA"
+      },
+      "hasCredential": {
+        "@type": "EducationalOccupationalCredential",
+        "name": "M.Sc. Biotechnology"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Forensic Science Lab – DNA Division"
+      },
+      "knowsAbout": ["Biotechnology", "Bioinformatics", "Computational Biology", "Molecular Diagnostics", "Python", "R"],
+      "description": "M.Sc. Biotechnology Student specializing in computational biology and bioinformatics"
+    }
+    </script>
+</head>
+<body class="bg-white text-gray-800 font-poppins">
+    <!-- Header Section -->
+    <header class="fixed w-full bg-white shadow-md z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div>
+                    <h1 class="text-2xl font-bold text-primary">Garima Rana</h1>
+                    <p class="text-sm text-secondary">M.Sc. Biotechnology Student</p>
+                </div>
+                <nav class="hidden md:block">
+                    <ul class="flex space-x-8">
+                        <li><a href="#home" class="nav-link text-dark hover:text-primary transition">Home</a></li>
+                        <li><a href="#about" class="nav-link text-dark hover:text-primary transition">About</a></li>
+                        <li><a href="#education" class="nav-link text-dark hover:text-primary transition">Education</a></li>
+                        <li><a href="#skills" class="nav-link text-dark hover:text-primary transition">Skills</a></li>
+                        <li><a href="#projects" class="nav-link text-dark hover:text-primary transition">Projects</a></li>
+                        <li><a href="#experience" class="nav-link text-dark hover:text-primary transition">Experience</a></li>
+                        <li><a href="#contact" class="nav-link text-dark hover:text-primary transition">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="md:hidden">
+                    <button class="text-dark focus:outline-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-32 pb-20 bg-gradient-to-r from-blue-50 to-green-50">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h2 class="text-4xl md:text-5xl font-bold text-dark mb-4">Hi, I'm Garima Rana</h2>
+                    <p class="text-xl text-gray-600 mb-8">M.Sc. Biotechnology Student | Computational Biology & Bioinformatics Enthusiast</p>
+                    <p class="text-gray-700 mb-8">Currently pursuing an M.Sc. in Biotechnology at J.C. Bose University of Science and Technology, YMCA. Passionate about computational biology, protein dynamics, and bioinformatics with strong academic and research background.</p>
+                    <div class="flex space-x-4">
+                        <a href="/garima-rana-resume.pdf" class="bg-primary hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition">Download CV</a>
+                        <a href="#contact" class="border border-primary text-primary hover:bg-primary hover:text-white px-6 py-3 rounded-lg transition">Contact Me</a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <img src="/garima-rana-profile-image.png" alt="Garima Rana Professional Photo" class="rounded-full w-64 h-64 object-cover shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16 section-title">About Me</h2>
+            <div class="max-w-3xl mx-auto text-lg text-gray-700">
+                <p class="mb-6">I am a dedicated M.Sc. Biotechnology student with a strong foundation in computational biology and bioinformatics. My academic journey has equipped me with comprehensive knowledge in molecular diagnostics, structural biology, and various biotechnological applications.</p>
+                <p class="mb-6">My research interests lie in exploring protein dynamics, genomic data analysis, and developing computational approaches to solve biological problems. I am particularly passionate about applying programming skills in Python and R to analyze complex biological datasets.</p>
+                <p>I aspire to contribute to innovative research in computational biology and continue developing my expertise in bioinformatics tools and techniques to address challenging biological questions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16 section-title">Education</h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="mb-8 p-6 bg-white rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-primary">M.Sc. Biotechnology</h3>
+                    <p class="text-secondary font-medium">J.C. Bose University of Science & Technology, YMCA</p>
+                    <p class="text-gray-600">2024–2026</p>
+                </div>
+                <div class="mb-8 p-6 bg-white rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-primary">B.Sc. (Hons.) Botany</h3>
+                    <p class="text-secondary font-medium">Ramjas College, University of Delhi</p>
+                    <p class="text-gray-600">2020–2023 | CGPA: 8.7/10</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-primary mb-4">Relevant Coursework</h3>
+                    <ul class="grid grid-cols-1 md:grid-cols-2 gap-2">
+                        <li class="flex items-center">
+                            <span class="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                            Cell Biology
+                        </li>
+                        <li class="flex items-center">
+                            <span class="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                            Genetics
+                        </li>
+                        <li class="flex items-center">
+                            <span class="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                            Biochemistry
+                        </li>
+                        <li class="flex items-center">
+                            <span class="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                            Bioinformatics
+                        </li>
+                        <li class="flex items-center">
+                            <span class="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                            Computational Biology
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16 section-title">Skills</h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="mb-10">
+                    <h3 class="text-xl font-semibold text-primary mb-6">Languages</h3>
+                    <div class="flex flex-wrap gap-4">
+                        <span class="bg-blue-100 text-primary px-4 py-2 rounded-full">Python</span>
+                        <span class="bg-blue-100 text-primary px-4 py-2 rounded-full">R</span>
+                    </div>
+                </div>
+                <div class="mb-10">
+                    <h3 class="text-xl font-semibold text-primary mb-6">Tools</h3>
+                    <div class="flex flex-wrap gap-4">
+                        <span class="bg-green-100 text-secondary px-4 py-2 rounded-full">BLAST</span>
+                        <span class="bg-green-100 text-secondary px-4 py-2 rounded-full">FASTA</span>
+                        <span class="bg-green-100 text-secondary px-4 py-2 rounded-full">ExPASy</span>
+                        <span class="bg-green-100 text-secondary px-4 py-2 rounded-full">Motif Finder</span>
+                        <span class="bg-green-100 text-secondary px-4 py-2 rounded-full">MEGA software</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-primary mb-6">Soft Skills</h3>
+                    <div class="flex flex-wrap gap-4">
+                        <span class="bg-gray-100 text-gray-700 px-4 py-2 rounded-full">Research</span>
+                        <span class="bg-gray-100 text-gray-700 px-4 py-2 rounded-full">Communication</span>
+                        <span class="bg-gray-100 text-gray-700 px-4 py-2 rounded-full">Scientific Writing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16 section-title">Academic Projects</h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="mb-8 p-6 bg-white rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-primary mb-2">Project Title 1</h3>
+                    <p class="text-gray-700 mb-4">Brief description of the project, objectives, and outcomes. Focus on computational biology or bioinformatics aspects.</p>
+                    <p class="text-sm text-gray-600">Skills used: Python, Data Analysis, Bioinformatics Tools</p>
+                </div>
+                <div class="mb-8 p-6 bg-white rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-primary mb-2">Project Title 2</h3>
+                    <p class="text-gray-700 mb-4">Brief description of the project, objectives, and outcomes. Focus on molecular diagnostics or research aspects.</p>
+                    <p class="text-sm text-gray-600">Skills used: Molecular Techniques, Laboratory Analysis</p>
+                </div>
+                <div class="text-center mt-8">
+                    <a href="https://github.com/garima1234-rana" class="inline-flex items-center text-primary hover:text-blue-700">
+                        <span>View more projects on GitHub</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16 section-title">Research & Industry Experience</h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="mb-8 p-6 bg-white rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-primary">FSL (Forensic Science Lab) – DNA Division</h3>
+                    <p class="text-secondary font-medium mb-2">Position/Role</p>
+                    <p class="text-gray-700 mb-4">Description of responsibilities and key achievements in DNA analysis and forensic biotechnology.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-blue-100 text-primary text-sm px-3 py-1 rounded-full">DNA Analysis</span>
+                        <span class="bg-blue-100 text-primary text-sm px-3 py-1 rounded-full">Molecular Techniques</span>
+                        <span class="bg-blue-100 text-primary text-sm px-3 py-1 rounded-full">Forensic Biotechnology</span>
+                    </div>
+                </div>
+                <div class="mb-8 p-6 bg-white rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-primary">Functional Genomics & Bioinformatics Internship</h3>
+                    <p class="text-secondary font-medium mb-2">Intern</p>
+                    <p class="text-gray-700 mb-4">Description of projects worked on during the internship, focusing on genomic data analysis and bioinformatics applications.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-green-100 text-secondary text-sm px-3 py-1 rounded-full">Genomic Analysis</span>
+                        <span class="bg-green-100 text-secondary text-sm px-3 py-1 rounded-full">Bioinformatics</span>
+                        <span class="bg-green-100 text-secondary text-sm px-3 py-1 rounded-full">Data Interpretation</span>
+                    </div>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-primary">Bioinformatics program at Ethical Edufabrica</h3>
+                    <p class="text-secondary font-medium mb-2">Participant</p>
+                    <p class="text-gray-700 mb-4">Description of the program and skills acquired in bioinformatics tools and computational approaches.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-100 text-gray-700 text-sm px-3 py-1 rounded-full">Bioinformatics Tools</span>
+                        <span class="bg-gray-100 text-gray-700 text-sm px-3 py-1 rounded-full">Computational Methods</span>
+                        <span class="bg-gray-100 text-gray-700 text-sm px-3 py-1 rounded-full">Data Analysis</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16 section-title">Certifications & Courses</h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="mb-8 p-6 bg-white rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-primary">Short Term Course on Research Paper Writing</h3>
+                    <p class="text-secondary font-medium">IIIS Delhi</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-primary">12-week NPTEL course on Patent Laws</h3>
+                    <p class="text-secondary font-medium">IIT Madras</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Extracurricular Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16 section-title">Extracurricular Activities</h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Leadership role in college science society</li>
+                        <li>Organized biotechnology workshops and seminars</li>
+                        <li>Participated in national level science competitions</li>
+                        <li>Attended workshops on recent advancements in biotechnology</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gradient-to-r from-blue-50 to-green-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16 section-title">Contact</h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="flex items-center">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="font-semibold">Email</p>
+                                <a href="mailto:garimarana1322@gmail.com" class="text-primary hover:text-blue-700">garimarana1322@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="font-semibold">Phone</p>
+                                <a href="tel:+917015885164" class="text-primary hover:text-blue-700">+91-7015885164</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="font-semibold">LinkedIn</p>
+                                <a href="#" class="text-primary hover:text-blue-700">Connect with me</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="font-semibold">GitHub</p>
+                                <a href="https://github.com/garima1234-rana" class="text-primary hover:text-blue-700">View my projects</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2023 Garima Rana. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
